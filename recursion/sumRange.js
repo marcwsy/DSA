@@ -3,5 +3,5 @@ const sumRange = (n) => {
     
     return n + sumRange(n - 1)
 
-}
-console.log(sumRange(3))
+};
+console.log(sumRange(3));
